@@ -20,6 +20,7 @@ from django.urls import include
 
 api_url = [
     path('todos/', include('todos.urls')),
+    path('products/', include('products.urls')),
 ]
 
 urlpatterns = [
